@@ -1,0 +1,6 @@
+.git
+.gitignore
+build.log
+results/
+run.sh
+run_param.sh
