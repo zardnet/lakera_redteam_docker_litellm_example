@@ -12,7 +12,7 @@
   --lakera-key  <LAKERA_API_KEY> \
   --litellm-url <LITELLM_BASE_URL> \
   --litellm-key <LITELLM_API_KEY> \
-  --model       <MODEL_NAME>
+  --model       <LITELLM에 등록된 MODEL_NAME>
 ```
 
 | 파라미터 | 필수 | 기본값 | 설명 |
