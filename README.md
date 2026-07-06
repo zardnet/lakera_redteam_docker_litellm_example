@@ -2,18 +2,6 @@
 
 [Lakera Red SDK](https://docs.lakera.ai/docs/red/sdk-reference)를 사용해 로컬 LiteLLM 인스턴스를 대상으로 AI 레드팀 스캔을 실행합니다.
 
-## 빠른 시작
-
-```bash
-# 1. 파라미터 스크립트 복사 후 키 입력
-cp run.sh run_param.sh
-# run_param.sh 안에 키 채우기
-
-# 2. 실행
-./run_param.sh
-```
-
----
 
 ## 실행 방법
 
@@ -43,12 +31,6 @@ cp run.sh run_param.sh
   --litellm-url http://host.docker.internal:4000 \
   --litellm-key sk-litellm-xxxx \
   --model       claude-opus-4-8
-```
-
-다른 모델만 바꿔서 실행:
-
-```bash
-./run_param.sh --model gemma4
 ```
 
 ---
@@ -164,7 +146,6 @@ redteam/
 ├── Dockerfile       # 컨테이너 빌드
 ├── requirements.txt
 ├── run.sh           # 실행 스크립트 (파라미터 직접 전달)
-├── run_param.sh     # 키 저장용 래퍼 (gitignore)
 ├── .env             # 선택 옵션 (gitignore)
 └── results/         # 스캔 결과 저장 (gitignore)
 ```
